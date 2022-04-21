@@ -1,0 +1,24 @@
+.body{
+    background-color: rgb(216, 213, 213);
+    font-weight: 500;
+}
+
+/* Container */
+.container_danhmuc{
+    background-color: #C6C3D6;
+    opacity: 0.8;
+    padding: 5px;
+    margin-bottom: 17px;
+}
+.container_danhmuc_text{
+    margin: 1rem 0px;
+    opacity: 1;
+}
+
+/* Thông tin liên hệ */
+.form_contact{
+    border: 1px solid black;
+    margin: 1rem 0;
+    padding: 1rem;
+    background-color: #F3F3F3;
+}

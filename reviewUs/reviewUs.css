@@ -1,0 +1,19 @@
+.body{
+    background-color: rgb(216, 213, 213);
+    font-weight: 500;
+}
+
+/* Container */
+.container_danhmuc{
+    background-color: #C6C3D6;
+    opacity: 0.8;
+    padding: 5px;
+    /* margin: 2vh 0; */
+}
+.container_danhmuc_text{
+    margin: 1rem 0px;
+    opacity: 1;
+}
+.container_review{
+    margin-top: 4vh;
+}
