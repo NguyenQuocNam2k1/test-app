@@ -27,7 +27,7 @@ if(header){
     '              >\n'+
     '            </li>\n'+
     '            <li class="nav-item text_header">\n'+
-    '              <a class="nav-link text_header" href="http://127.0.0.1:5500/similar/similar.html">LIÊN QUAN</a>\n'+
+    '              <a class="nav-link text_header" href="http://127.0.0.1:5500/similar/similar.html">TIN TỨC</a>\n'+
     '            </li>\n'+
     '            <li class="nav-item dropdown">\n'+
     '              <a\n'+

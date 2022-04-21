@@ -21,7 +21,7 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
     />
     <link rel="stylesheet" href="./similar.css" />
-    <link rel="stylesheet" href="../container.css">
+    <link rel="stylesheet" href="../container.css" />
   </head>
   <body>
     <!-- Header -->
@@ -29,8 +29,7 @@
       class="navbar navbar-expand-lg navbar-light bg-ligh"
       style="background-color: #09baa0 !important; color: #fff !important;"
       id="header"
-    >
-    </nav>
+    ></nav>
 
     <!-- Slide sản phẩm -->
     <div
@@ -109,234 +108,293 @@
       </button>
     </div>
 
-    <!-- Input search tour -->
-    <div class="input_search_tour container-md" style="margin-top: 5vh;">
-      <div class="row justify-content-around input_search_tour_row">
-        <div class="dropdown col-2">
-          <button
-            class="btn btn-secondary"
-            type="button"
-            id="dropdownMenuButton1"
-            style="
-              background-color: white;
-              border: 1px solid #f2f3f7;
-              color: black;
-              width: 100%;
-              text-align: left;
-              font-size: 14px;
-            "
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
-            Loại Tour
-            <i
-              class="bi bi-chevron-compact-down"
-              style="position: absolute; right: 15%;"
-            ></i>
-          </button>
-          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-            <li><a class="dropdown-item" href="#">Nội địa</a></li>
-            <li><a class="dropdown-item" href="#">Nước ngoài</a></li>
-          </ul>
-        </div>
-        <div class="dropdown col-2">
-          <button
-            class="btn btn-secondary"
-            type="button"
-            id="dropdownMenuButton1"
-            style="
-              background-color: white;
-              border: 1px solid #f2f3f7;
-              color: black;
-              width: 100%;
-              text-align: left;
-              font-size: 14px;
-            "
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
-            Nơi Đến
-            <i
-              class="bi bi-chevron-compact-down"
-              style="position: absolute; right: 15%;"
-            ></i>
-          </button>
-          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-            <li><a class="dropdown-item" href="#">Du lịch Cát Bà</a></li>
-            <li><a class="dropdown-item" href="#">Du lịch Hà Nội Sapa</a></li>
-            <li><a class="dropdown-item" href="#">Du lịch Miền Trung</a></li>
-            <li>
-              <a class="dropdown-item" href="#">Du lịch Đà Nẵng Hội An Huế</a>
-            </li>
-            <li>
-              <a class="dropdown-item" href="#">Du lịch Nha Trang Đà Lạt</a>
-            </li>
-            <li>
-              <a class="dropdown-item" href="#">Du lịch Vũng Tàu Côn Đảo</a>
-            </li>
-            <li>
-              <a class="dropdown-item" href="#">Du lịch Sài Gòn Miền Tây</a>
-            </li>
-            <li><a class="dropdown-item" href="#">Du lịch Đông Tây Bắc</a></li>
-            <li><a class="dropdown-item" href="#">Du lịch Phan Thiết</a></li>
-            <li>
-              <a class="dropdown-item" href="#">Du lịch Cửa Lò Làng Sen</a>
-            </li>
-            <li><a class="dropdown-item" href="#">Du lịch Quảng Ninh</a></li>
-          </ul>
-        </div>
-        <div class="dropdown col-2">
-          <!-- <button class="btn btn-secondary" type="button" id="dropdownMenuButton1" 
-        style="background-color: white;
-        border: 1px solid #F2F3F7;
-        color: black;
-        width: 100%;
-        text-align: left;
-        font-size: 14px;" 
-        data-bs-toggle="dropdown" aria-expanded="false">
-          Nơi đến
-          <i class="bi bi-chevron-compact-down" style="position: absolute; right: 15%"></i>
-        </button> -->
-          <input
-            type="text"
-            style="
-              background-color: white;
-              border: 1px solid #f2f3f7;
-              color: black;
-              width: 100%;
-              text-align: left;
-              font-size: 14px;
-              border-radius: 6px;
-              padding: 6px 0px 6px 6px;
-            "
-            placeholder="Nhập ngày đi"
-          />
-        </div>
-        <div class="dropdown col-2">
-          <button
-            class="btn btn-secondary"
-            type="button"
-            id="dropdownMenuButton1"
-            style="
-              background-color: white;
-              border: 1px solid #f2f3f7;
-              color: black;
-              width: 100%;
-              text-align: left;
-              font-size: 14px;
-            "
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
-            Giảm Giá
-            <i
-              class="bi bi-chevron-compact-down"
-              style="position: absolute; right: 15%;"
-            ></i>
-          </button>
-          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-            <li><a class="dropdown-item" href="#">Có giảm giá</a></li>
-            <li><a class="dropdown-item" href="#">Không giảm giá </a></li>
-          </ul>
-        </div>
-        <div class="dropdown col-2">
-          <button
-            class="btn btn-secondary"
-            type="button"
-            id="dropdownMenuButton1"
-            style="
-              background-color: white;
-              border: 1px solid #f2f3f7;
-              color: black;
-              width: 100%;
-              text-align: left;
-              font-size: 14px;
-            "
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
-            Giá
-            <i
-              class="bi bi-chevron-compact-down"
-              style="position: absolute; right: 15%;"
-            ></i>
-          </button>
-          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-            <li><a class="dropdown-item" href="#">< 1 triệu</a></li>
-            <li><a class="dropdown-item" href="#">2 triệu - 4 triệu</a></li>
-            <li><a class="dropdown-item" href="#">4 triệu - 6 triệu</a></li>
-            <li><a class="dropdown-item" href="#">6 triệu - 8 triệu</a></li>
-            <li><a class="dropdown-item" href="#">8 triệu - 10 triệu</a></li>
-            <li><a class="dropdown-item" href="#">> 10 triệu</a></li>
-          </ul>
-        </div>
-        <div class="col-2 button_insert_tour">
-          <button
-            type="button"
-            class="btn btn-success"
-            style="
-              height: fit-content;
-              width: 94%;
-              border-radius: 0px;
-              font-weight: 600;
-            "
-          >
-            XEM GIÁ
-          </button>
-        </div>
-      </div>
-    </div>
-    <div class="container-md input_search_nav">
-      <p style="margin: 0;">
-        Trang chủ > Tin tức liên quan
-      </p>
-    </div>
+    <!-- Title tour -->
+    <p
+      class="mt-5 mb-3"
+      style="
+        text-align: center;
+        color: #fd5056;
+        font-size: 2rem;
+        font-weight: 500;
+      "
+    >
+      <i class="bi bi-newspaper"></i> TIN TỨC
+    </p>
 
     <!-- Container -->
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4 col-12">
-          <a href="#">
-            <div class="card" style="width: 18rem;">
-              <img
-                src="../image/sp2.jpg"
-                class="card-img-top"
-                alt="..."
-              />
-              <p class="card-text">Thông báo cập nhập số hotline</p>
-            </div>
-          </a>
+    <div class="container-fluid">
+      <div class="row ">
+        <div class="col-12 col-xl-7 mb-5">
+          <img
+            src="../image/newMain.jpg"
+            style="border-radius: 12px;"
+            class="card-img-top"
+            alt=""
+          />
         </div>
-        <div class="col-lg-4 col-12">
-          <a href="#">
-            <div class="card" style="width: 18rem;">
+        <div class="col-12 col-xl-5 mb-5">
+          <div class="row abc">
+            <div class="col-5">
               <img
-                src="../image/sp3.jpg"
+                src="../image/new1.jfif"
+                style="border-radius: 12px;"
                 class="card-img-top"
-                alt="..."
+                alt=""
               />
-              <p class="card-text">Hệ thống cửa hàng</p>
             </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-12">
-          <a href="#">
-            <div class="card" style="width: 18rem;">
+            <div class="col-7">
+              <p class="title redBlue">Tin tức du lịch</p>
+              <p class="text blue">
+                Cú “chạm” làm nóng thị trường du lịch trong và ngoài nước “Kích
+                cầu - Giảm sâu” đến 30%
+              </p>
+              <p class="dateTime">01/04/2022</p>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col-5">
               <img
-                src="../image/sp4.jpg"
+                src="../image/new2.jfif"
+                style="border-radius: 12px;"
                 class="card-img-top"
-                alt="..."
+                alt=""
               />
-              <p class="card-text">Câu hỏi thường gặp</p>
             </div>
-          </a>
+            <div class="col-7">
+              <p class="title redBlue">Tin tức du lịch</p>
+              <p class="text blue">
+                Công bố Tuần lễ vàng du lịch Lâm Đồng năm 2022 và Giải chạy bộ
+                kết hợp với âm nhạc - Da Lat Music Run 2022
+              </p>
+              <p class="dateTime">24/03/2022</p>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col-5">
+              <img
+                src="../image/new3.jpg"
+                style="border-radius: 12px;"
+                class="card-img-top"
+                alt=""
+              />
+            </div>
+            <div class="col-7">
+              <p class="title redBlue">Tin tức du lịch</p>
+              <p class="text blue">
+                Trở lại Thái Lan – vi vu khám phá theo cách riêng của bạn
+              </p>
+              <p class="dateTime">18/03/2022</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
+  
 
-    <!-- Footer -->
-    <div class="footer" id="footer">
+    <div class="container-fluid">
+      <div class="row" style="border-top: 1px solid #8293AE;
+      padding-top: 1rem;
+      margin: 1rem 0px;
+      border-radius: 10px;">
+        <div class="col-4">
+          <img
+            src="../image/newItem1.png"
+            style="border-radius: 12px;"
+            class="card-img-top"
+            alt=""
+          />
+        </div>
+        <div class="col-8">
+          <p class="title_similar blue">Top 10 điểm đến Việt Nam hứa hẹn thu hút khách du lịch quốc tế sau 15-3</p>
+          <p class="text_similar redBlue">
+            Tin tức du lịch
+          </p>
+          <p class="dateTime_similar">Lạc bước đến xứ sở Đông Bắc, bạn sẽ thấy mùa xuân nơi miền rẻo cao này đẹp tựa “chốn thiên đường”. Sắc trắng của hoa mận, sắc hồng của hoa đào, sắc đỏ của hoa gạo, sắc vàng của hoa cải… nở rộ tràn ngập khắp thung lũng, như mời gọi lữ khách dừng chân khám phá những khoảnh khắc kỳ diệu của mùa xuân Hà Giang và Tuyên Quang.</p>
+        </div>
+      </div>
+      <div class="row" style="border-top: 1px solid #8293AE;
+      padding-top: 1rem;
+      margin: 1rem 0px;
+      border-radius: 10px;">
+        <div class="col-4">
+          <img
+            src="../image/newItem2.jpg"
+            style="border-radius: 12px;"
+            class="card-img-top"
+            alt=""
+          />
+        </div>
+        <div class="col-8">
+          <p class="title_similar blue">Nhiều đoàn Vietravel tham dự Expo 2020 Dubai từ ngày 4-3</p>
+          <p class="text_similar redBlue">
+            Tin tức du lịch
+          </p>
+          <p class="dateTime_similar">Ngày 4-3, Vietravel đã đưa 45 khách đến tham dự Expo 2020 Dubai - Triển lãm World Expo đầu tiên và cũng là lớn nhất tại khu vực Trung Đông, châu Phi và Nam Á (MEASA). Đây là đoàn khách đầu tiên khởi hành từ TP. Hồ Chí Minh trong tháng 3/2022, bắt đầu cho chuỗi các hành trình khám phá năm châu cùng Vietravel..</p>
+        </div>
+      </div>
+      <div class="row" style="border-top: 1px solid #8293AE;
+      padding-top: 1rem;
+      margin: 1rem 0px;
+      border-radius: 10px;">
+        <div class="col-4">
+          <img
+            src="../image/newItem3.jpg"
+            style="border-radius: 12px;"
+            class="card-img-top"
+            alt=""
+          />
+        </div>
+        <div class="col-8">
+          <p class="title_similar blue">Năm 2022, nhiều triển vọng cho du lịch nước ngoài</p>
+          <p class="text_similar redBlue">
+            Tin tức du lịch
+          </p>
+          <p class="dateTime_similar">Sau một thời gian dài “đóng băng” do dịch Covid-19, thị trường du lịch nước ngoài đã có những tín hiệu khởi sắc trở lại, và đang dần thích ứng trong bối cảnh bình thường mới. Nhiều người kỳ vọng, việc Chính phủ chuẩn bị mở cửa du lịch quốc tế từ 15/3/2022 sẽ là “đòn bẩy” để du lịch Việt Nam tăng tốc, giúp các doanh nghiệp lữ hành phục hồi nhanh chóng, đáp ứng nhu cầu đi du lịch nước ngoài của du khách.</p>
+        </div>
+      </div>
+      <div class="row" style="border-top: 1px solid #8293AE;
+      padding-top: 1rem;
+      margin: 1rem 0px;
+      border-radius: 10px;">
+        <div class="col-4">
+          <img
+            src="../image/newItem4.jpg"
+            style="border-radius: 12px;"
+            class="card-img-top"
+            alt=""
+          />
+        </div>
+        <div class="col-8">
+          <p class="title_similar blue">Đầu năm 2022: Du lịch M.I.C.E tăng tốc</p>
+          <p class="text_similar redBlue">
+            Tin tức du lịch
+          </p>
+          <p class="dateTime_similar">Sau 2 năm “đóng băng” vì đại dịch Covid-19, du lịch trong nước có những bước khởi sắc đáng kể và Việt Nam cũng đã bắt đầu mở cửa đón khách quốc tế trở lại. Đây được xem là tín hiệu vui và lạc quan của ngành Du lịch nước nhà.</p>
+        </div>
+      </div>
+      <div class="row" style="border-top: 1px solid #8293AE;
+      padding-top: 1rem;
+      margin: 1rem 0px;
+      border-radius: 10px;">
+        <div class="col-4">
+          <img
+            src="../image/newItem5.jpg"
+            style="border-radius: 12px;"
+            class="card-img-top"
+            alt=""
+          />
+        </div>
+        <div class="col-8">
+          <p class="title_similar blue">Du lịch châu Âu, Hoa Kỳ chiêm ngưỡng sắc hoa đào, hoa tulip</p>
+          <p class="text_similar redBlue">
+            Tin tức du lịch
+          </p>
+          <p class="dateTime_similar">Cứ mỗi độ xuân về, từ tháng 3 - 4 hàng năm du khách khắp mọi nơi lại háo hức, chuẩn bị du lịch châu Âu, châu Mỹ đến với Pháp, Hoa Kỳ (Mỹ) để chiêm ngưỡng sắc hoa đào nở rộ và tham gia Lễ hội hoa Tulip Hà Lan.</p>
+        </div>
+      </div>
+      <div class="row" style="border-top: 1px solid #8293AE;
+      padding-top: 1rem;
+      margin: 1rem 0px;
+      border-radius: 10px;">
+        <div class="col-4">
+          <img
+            src="../image/newItem6.jpg"
+            style="border-radius: 12px;"
+            class="card-img-top"
+            alt=""
+          />
+        </div>
+        <div class="col-8">
+          <p class="title_similar blue">Du xuân Ibaraki, ngắm “Thiên đường hoa” của Nhật Bản</p>
+          <p class="text_similar redBlue">
+            Tin tức du lịch
+          </p>
+          <p class="dateTime_similar">Vào mỗi độ Tháng 3, khi hoa anh đào nở rộ cũng là lúc bắt đầu câu chuyện mùa xuân ở xứ Phù Tang. Nếu bạn muốn trải nghiệm không gian được bao trùm bởi hương hoa và thế giới màu hồng đầy ảo diệu, lãng mạn, hãy lên kế hoạch cho mình một chuyến du xuân tới Ibaraki ngay nhé!</p>
+        </div>
+      </div>
+      <div class="row" style="border-top: 1px solid #8293AE;
+      padding-top: 1rem;
+      margin: 1rem 0px;
+      border-radius: 10px;">
+        <div class="col-4">
+          <img
+            src="../image/newItem7.jpg"
+            style="border-radius: 12px;"
+            class="card-img-top"
+            alt=""
+          />
+        </div>
+        <div class="col-8">
+          <p class="title_similar blue">Đổi gió trải nghiệm tháng 4, du lịch sang chảnh ở UAE và Úc</p>
+          <p class="text_similar redBlue">
+            Tin tức du lịch
+          </p>
+          <p class="dateTime_similar">Với du khách bốn phương, các Tiểu Vương Quốc Ả Rập Thống Nhất (UAE) hay vùng đất "đảo lục địa" Úc luôn là xứ sở của những điều kỳ diệu khiến ai ai cũng muốn được một lần du lịch khám phá. Nếu Dubai nổi tiếng với sự xa hoa, tráng lệ của các công trình kiến trúc kỳ vĩ như Burj Khalifa, Bảo tàng Louvre Abu Dhabi... thì Sydney, Melbourne (Úc) lại cuốn hút bởi mùa thu đầy lãng mạn.</p>
+        </div>
+      </div>
+      <div class="row" style="border-top: 1px solid #8293AE;
+      padding-top: 1rem;
+      margin: 1rem 0px;
+      border-radius: 10px;">
+        <div class="col-4">
+          <img
+            src="../image/newItem8.jpg"
+            style="border-radius: 12px;"
+            class="card-img-top"
+            alt=""
+          />
+        </div>
+        <div class="col-8">
+          <p class="title_similar blue">Sắc xuân xứ sở Tuyên – Hà</p>
+          <p class="text_similar redBlue">
+            Tin tức du lịch
+          </p>
+          <p class="dateTime_similar">Lạc bước đến xứ sở Đông Bắc, bạn sẽ thấy mùa xuân nơi miền rẻo cao này đẹp tựa “chốn thiên đường”. Sắc trắng của hoa mận, sắc hồng của hoa đào, sắc đỏ của hoa gạo, sắc vàng của hoa cải… nở rộ tràn ngập khắp thung lũng, như mời gọi lữ khách dừng chân khám phá những khoảnh khắc kỳ diệu của mùa xuân Hà Giang và Tuyên Quang.</p>
+        </div>
+      </div>
+      <div class="row" style="border-top: 1px solid #8293AE;
+      padding-top: 1rem;
+      margin: 1rem 0px;
+      border-radius: 10px;">
+        <div class="col-4">
+          <img
+            src="../image/newItem9.jpeg"
+            style="border-radius: 12px;"
+            class="card-img-top"
+            alt=""
+          />
+        </div>
+        <div class="col-8">
+          <p class="title_similar blue">Trọn "mùa yêu thương" - chọn tour như ý</p>
+          <p class="text_similar redBlue">
+            Tin tức du lịch
+          </p>
+          <p class="dateTime_similar">Nhân dịp Lễ Tình nhân 14/2 và Ngày Quốc tế Phụ nữ 8/3, Vietravel vừa triển khai Chương trình khuyến mại đặc biệt mang tên "Mùa yêu thương" với các ưu đãi cực kỳ hấp dẫn, nhiều quà tặng ý nghĩa đến từ hệ thống đối tác liên kết, cùng hàng loạt sản phẩm du lịch độc đáo.</p>
+        </div>
+      </div>
+      <div class="row" style="border-top: 1px solid #8293AE;
+      padding-top: 1rem;
+      margin: 1rem 0px;
+      border-radius: 10px;">
+        <div class="col-4">
+          <img
+            src="../image/newItem10.jpg"
+            style="border-radius: 12px;"
+            class="card-img-top"
+            alt=""
+          />
+        </div>
+        <div class="col-8">
+          <p class="title_similar blue">Vietravel khuyến mại “Mùa yêu thương” thay lời tri ân phái đẹp</p>
+          <p class="text_similar redBlue">
+            Tin tức du lịch
+          </p>
+          <p class="dateTime_similar">Không có món quà nào ngọt ngào hơn dành cho người phụ nữ yêu thương của chúng ta hơn là quà tặng tinh thần, giúp họ vừa có dịp trải nghiệm, vừa có thể giải tỏa căng thẳng và tận hưởng niềm vui riêng giữa bộn bề cuộc sống. Nếu muốn bày tỏ sự quan tâm về sức khỏe và thể chất đến “một nửa thế giới”, thì hành trình khám phá đó đây chắc chắn sẽ là sự lựa chọn hoàn hảo dành cho bạn.</p>
+        </div>
+      </div>
     </div>
+    <!-- Footer -->
+    <div class="footer" id="footer"></div>
   </body>
   <script src="../container.js"></script>
 </html>
