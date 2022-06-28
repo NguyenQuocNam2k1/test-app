@@ -1,21 +1,9 @@
 import './App.css';
 
 function App() {
-  const test = () => {
-    FB.login(function (response) {
-      if (response.status === "connected") {
-        // Logged into your webpage and Facebook.
-      } else {
-        // The person is not logged into your webpage or we are unable to tell.
-      }
-    });
-  }
 
   return (
-    <div className="App">
-      
-      
-    </div>
+    <div class="fb-login-button" data-width="" data-size="large" data-button-type="continue_with" data-layout="default" data-auto-logout-link="false" data-use-continue-as="false"></div>
   );
 }
 
